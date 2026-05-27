@@ -1,7 +1,7 @@
 import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
+import b1 from '../assets/b1.jpg'
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
@@ -256,7 +256,7 @@ export default function Home() {
                   </div>
 
                   <img
-                    src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop"
+                    src={b1}
                     alt="Students learning"
                     className="parallax-image img-fluid rounded-5 shadow-lg"
                     style={{

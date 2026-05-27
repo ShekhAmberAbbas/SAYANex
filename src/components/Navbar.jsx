@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-
+import logo from '../assets/logo2.png'
 export default function Navbar() {
 
   return (
 
     <nav
-      className="navbar navbar-expand-lg fixed-top"
+      className="navbar navbar-expand-lg sticky-top"
       style={{
         background: "rgba(255,255,255,0.8)",
         backdropFilter: "blur(14px)",
@@ -13,13 +13,14 @@ export default function Navbar() {
       }}
     >
 
-      <div className="container py-2">
+      <div className="container ">
 
         <Link
-          className="navbar-brand fw-bold fs-3"
+          className="navbar-brand fw-bold fs-3 w-25 "
           to="/"
           style={{ color: "#0F172A" }}
         >
+          <img src={logo} className="w-25 pb-3 pe-1" alt="" />
           SAYAN
           <span style={{ color: "#2563EB" }}>
             eX

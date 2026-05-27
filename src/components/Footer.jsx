@@ -1,3 +1,5 @@
+import logo from '../assets/logo.png'
+
 export default function Footer() {
 
   return (
@@ -21,10 +23,8 @@ export default function Footer() {
               className="fw-bold"
               style={{ color: "#0F172A" }}
             >
-              SAYAN
-              <span style={{ color: "#2563EB" }}>
-                eX
-              </span>
+              <img src={logo} className='w-50' alt="" />
+              
             </h3>
 
             <p
@@ -71,7 +71,7 @@ export default function Footer() {
             </p>
 
             <p style={{ color: "#64748B" }}>
-              ✉️ info@sayanextech.com
+              ✉️ sayanextechnologies@gmail.com
             </p>
 
           </div>
